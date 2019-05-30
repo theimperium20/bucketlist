@@ -5,7 +5,8 @@ It uses authentication to prevent users from editing bucketlists except their ow
 ### How to use 
 -Before proceeding make sure all requirements are installed. <br>
 -You can install all requirements by using `pip install -r requirements.txt`.<br>
-
+- Change `YOUR_SECRET_KEY` in `/bucketlist/settings.py` to your unique secret key
+- Change `YOUR_HEROKU_APP` in `ALLOWED_HOSTS` in `/bucketlist/settings.py` to the your heroku app url or if you don't want to host the app on heroku just remove it.
 #### Run it on local system
 - `git clone https://github.com/theimperium20/sqllite-flask-api.git`
 - Run the follwing commands on powershell or terminal:
