@@ -10,7 +10,7 @@ class BucketList(models.Model):
   name = models.CharField(max_length=255, blank=False, unique=True)
   owner = models.ForeignKey('auth.User',
   related_name='bucket_list',
-  on_delete=models.CASCADE)
+  on_delete=models.CASCADE,default=1)
   date_created = models.DateTimeField(auto_now_add=True)
   date_modified = models.DateTimeField(auto_now=True)
 
