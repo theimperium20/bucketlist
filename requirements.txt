@@ -1,2 +1,3 @@
 django
 djangorestframework
+gunicorn==19.7.1
