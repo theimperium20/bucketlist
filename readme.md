@@ -28,3 +28,5 @@ It uses authentication to prevent users from editing bucketlists except their ow
 - DELETE /bucketlist/id/ `-- Expects - authorization token`
 
 ### Live API server base url https://bucketlist-restapi.herokuapp.com/bucketlist/
+
+Set `DEBUG=False` on production server
